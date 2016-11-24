@@ -1,6 +1,7 @@
 <?php require('includes/header.php');?>
 
 <?php 
+error_reporting(0);
 require 'database.php';
 $conn = Database::connect();
 
